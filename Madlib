@@ -1,0 +1,32 @@
+import java.util.Scanner;
+/**
+ * This class is an assignment for my AP Comp Sci class but I had some with it and put my brother in it
+ * 
+ *
+ * @Kc Brown
+ * @9/16/22
+ */
+public class Madlib
+{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter adj: ");
+        String adj1 = input.nextLine();
+        System.out.print("Enter adj: ");
+        String adj2 = input.nextLine();
+        System.out.print("Enter noun: ");
+        String adj3 = input.nextLine();
+        System.out.print("Enter place: ");
+        String place1 = input.nextLine();
+        System.out.println("Keith woke up in "+ place1);
+        System.out.println("Keith was "+adj1);
+        System.out.println("Keith had "+adj3);
+        System.out.println("Keith felt " +adj2);
+        
+        
+
+        
+        
+        
+    }
+}
